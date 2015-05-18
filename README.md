@@ -11,6 +11,10 @@ It is written with a couple of lines of PHP, just drop it on your server and edi
 
 To write a new message, open `/write.html` in a browser.
 
+## Twab users
+
+- http://flux.quaternum.net/twab/
+
 ## License
 
 Twab is under [GNU GPL](https://www.gnu.org/licenses/gpl.html).
