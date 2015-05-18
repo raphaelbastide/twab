@@ -29,6 +29,6 @@ echo 'No message yet. Post your first on /new.html';
 }
 ?>
   </pre>
-  <a href="info.html">Why this is cool?</a>
+  <a href="http://lab.raphaelbastide.com/twab/whythisiscool.html">Why this is cool?</a>
 </body>
 </html>
