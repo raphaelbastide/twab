@@ -10,7 +10,7 @@
   require 'config.php';
   $password = $_POST['password'];
   $message = $_POST['message'];
-  if ($password==$config->userpass) {
+  if ($password === $config->userpass) {
     $file_data = $message."\n";
     $file_data .= file_get_contents($messagefile);
     file_put_contents($messagefile, $file_data);
