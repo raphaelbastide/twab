@@ -14,6 +14,8 @@ To write a new message, open `/write.html` in a browser.
 ## Twab users
 
 - http://flux.quaternum.net/twab/
+- http://twab.hugohil.ninja/ using [node-twab](https://github.com/hugohil/node-twab) by @hugohil
+- http://www.gaduman.com/twab/
 
 ## License
 
