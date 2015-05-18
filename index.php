@@ -2,7 +2,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link href="favicon.ico" rel="icon" type="image/x-icon" />
   <meta charset="utf-8">
   <?php
     require 'config.php';
@@ -12,9 +11,10 @@
       fclose($f);
     }
   ?>
-  <meta name="twab-userfile" content="<?php echo $config->userurl.$messagefile?>">
-  <title><?php echo $lastmessage ?></title>
+<meta name="twab-userfile" content="<?php echo $config->userurl.$messagefile?>">
+  <link href="favicon.ico" rel="icon" type="image/x-icon" />
   <meta http-equiv="refresh" content="30" >
+  <title><?php echo $lastmessage ?></title>
 </head>
 <body>
   <p>Microblogging in a browser tab.</p>
