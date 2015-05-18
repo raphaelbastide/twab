@@ -11,11 +11,12 @@ It is written with a couple of lines of PHP, just drop it on your server and edi
 
 To write a new message, open `/write.html` in a browser.
 
-## Twab users
+## Twabberz
 
 - http://flux.quaternum.net/twab/
 - http://hugohil.ninja/twab using [node-twab](https://github.com/hugohil/node-twab) by @hugohil
 - http://www.gaduman.com/twab/
+- http://pierrebertet.net/twab/
 
 ## License
 
