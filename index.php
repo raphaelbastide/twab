@@ -12,6 +12,7 @@
       fclose($f);
     }
   ?>
+  <meta name="twab-userfile" content="<?php echo $config->userurl.$messagefile?>">
   <title><?php echo $lastmessage ?></title>
   <meta http-equiv="refresh" content="30" >
 </head>
