@@ -31,4 +31,13 @@ echo 'No message yet. Post your first on /new.html';
   </pre>
   <a href="http://lab.raphaelbastide.com/twab/whythisiscool.html">Why this is cool?</a>
 </body>
+<script src="js/autolink.js"></script>
+<script>
+  // Autolink the content of <pre>
+  var elements = document.querySelectorAll('pre');
+  Array.prototype.forEach.call(elements, function(el, i){
+      var text = el.innerHTML;
+      el.innerHTML = text.autoLink();
+  });
+</script>
 </html>
