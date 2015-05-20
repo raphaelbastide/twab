@@ -13,10 +13,12 @@ To write a new message, open `/write.html` in a browser.
 
 ## Twabberz
 
+- http://lab.raphaelbastide.com/twab/
 - http://flux.quaternum.net/twab/
 - http://hugohil.ninja/twab using [node-twab](https://github.com/hugohil/node-twab) by @hugohil
 - http://www.gaduman.com/twab/
 - http://pierrebertet.net/twab/
+- http://soymalau.com/twab/
 
 ## License
 
