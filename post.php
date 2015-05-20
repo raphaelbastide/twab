@@ -22,6 +22,5 @@
     echo "Wrong password…";
     }
   ?>
-  </ul>
 </body>
 </html>
