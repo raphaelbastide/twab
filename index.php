@@ -5,13 +5,13 @@
   <meta charset="utf-8">
   <?php
     require 'config.php';
-    if (file_exists($messagefile)) {
-      $f = fopen($messagefile, 'r');
+    if (file_exists($messageFile)) {
+      $f = fopen($messageFile, 'r');
       $lastmessage = fgets($f);
       fclose($f);
     }
   ?>
-<meta name="twab-userfile" content="<?php echo $config->userurl.$messagefile?>">
+<meta name="twab-userfile" content="<?php echo $config->userUrl.$messageFile?>">
   <link href="favicon.ico" rel="icon" type="image/x-icon" />
   <meta http-equiv="refresh" content="30" >
   <title><?php echo $lastmessage ?></title>
@@ -22,8 +22,8 @@
   <p>My last messages:</p>
   <pre>
 <?php
-if (file_exists($messagefile)) {
-include($messagefile);
+if (file_exists($messageFile)) {
+include($messageFile);
 }else {
 echo 'No message yet. Post your first on /new.html';
 }

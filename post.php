@@ -10,11 +10,11 @@
   require 'config.php';
   $password = $_POST['password'];
   $message = $_POST['message'];
-  if ($password === $config->userpass) {
-    $file_data = $message."\n";
-    $file_data .= file_get_contents($messagefile);
-    file_put_contents($messagefile, $file_data);
-    fclose($messagefile);
+  if ($password === $config->userPass) {
+    $fileData = $message."\n";
+    $fileData .= file_get_contents($messageFile);
+    file_put_contents($messageFile, $fileData);
+    fclose($messageFile);
     header("Location: ./");
     die();
   }
