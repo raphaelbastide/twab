@@ -16,7 +16,7 @@
 if (file_exists($messageFile)) {
 include($messageFile);
 }else {
-echo 'No message yet. Post your first on /new.html';
+echo 'No message yet. Post your first on /new.php';
 }
 ?>
   </pre>

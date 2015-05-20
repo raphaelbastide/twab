@@ -9,7 +9,7 @@ Don’t forget to check [why this is cool](http://lab.raphaelbastide.com/twab/in
 
 It is written with a couple of lines of PHP, just drop it on your server and edit config-example.php. Once you have changed the `username`, `userpass` and `userurl`, rename config-example.php to config.php.
 
-To write a new message, open `/write.html` in a browser.
+To write a new message, open `/new.php` in a browser.
 
 ## Twabberz
 
