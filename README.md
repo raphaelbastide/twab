@@ -7,7 +7,7 @@ Don’t forget to check [why this is cool](http://lab.raphaelbastide.com/twab/in
 
 ## Install
 
-It is written with a couple of lines of PHP, just drop it on your server and edit config-example.php. Once you have changed the `username`, `userpass` and `userurl`, rename config-example.php to config.php.
+It is written with a couple of lines of PHP, just drop it on your server and edit config-example.php. Once you have changed the `userName`, `userpass` and `userurl`, rename config-example.php to config.php.
 
 To write a new message, open `/new.php` in a browser.
 

@@ -1,11 +1,21 @@
 <?php
   $config = new stdClass();
   // Edit those lines and rename config-example to config.php
-  $config->username = 'default';
-  $config->userpass = 'pleaseChangeMe';
+
+  // Your username
+  $config->userName = 'twabber';
+
+  // Your password
+  $config->userPass = 'pleaseChangeMe';
+
+  // The theme folder name you want to use
+  $config->themeName = 'default';
+
   // This is where twab is hosted on your server
   // Don’t forget the slash `/` at the end of the URL
-  $config->userurl = "http://default.net/twab/";
-  // Do not change that
-  $messagefile = $config->username.'.plan';
+  $config->userUrl = "http://default.net/twab/";
+
+  // Do not change that :)
+  $config->themeUrl = $config->userUrl."themes/".$config->themeName."/";
+  $messageFile = $config->userName.'.plan';
 ?>
