@@ -20,6 +20,8 @@ To write a new message, open `/write.html` in a browser.
 - http://pierrebertet.net/twab/
 - http://soymalau.com/twab/
 
+Not on the list? Let me know where you twab URL by [email](mailto:bonjour@raphaelbastide.com)!
+
 ## License
 
 Twab is under [GNU GPL](https://www.gnu.org/licenses/gpl.html).
