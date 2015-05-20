@@ -7,9 +7,17 @@ Don’t forget to check [why this is cool](http://lab.raphaelbastide.com/twab/in
 
 ## Install
 
-It is written with a couple of lines of PHP, just drop it on your server and edit config-example.php. Once you have changed the `userName`, `userpass` and `userurl`, rename config-example.php to config.php.
+1. Drop it on your server and edit config-example.php
+2. In the `config/` folder, rename `config-example.php` to `config.php`
+3. Change the values of the `userName`, `userPass` and `userUrl` variables in `config.php`
 
 To write a new message, open `/new.php` in a browser.
+
+## Themes
+
+You can create your own twab theme by creating a new folder in `themes/`. The easy way is to copy an existing theme and modify the files!
+
+Finally, change the default theme by modifying the value of `themeName` in `config/config.php`.
 
 ## Twabberz
 
