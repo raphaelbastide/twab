@@ -1,0 +1,48 @@
+body{
+  padding:0;
+  font:3vw/4vw monospace;
+  font-weight:bold;
+  background:lime;
+  color:black;
+}
+pre{
+  margin:0;
+  font:inherit;
+}
+pre a:before{
+  content:"";
+  width:3vw;
+  height:3vw;
+  background:white;
+  display:inline-block;
+  border-radius:3vw;
+  position:relative;
+  bottom:-.4vw;
+}
+pre a:hover:before{
+  background:black;
+}
+a{
+  color:black;
+  text-decoration:none;
+}
+a:hover{
+  color:white;
+}
+.why{
+  font-size:14px;
+  font-weight:normal;
+}
+@media (max-width:600px) {
+  body{
+    font-size:30px;
+    line-height:40px;
+  }
+  pre a:before{
+    width:30px;
+    height:30px;
+    border-radius:30px;
+    bottom:-4px;
+  }
+
+}

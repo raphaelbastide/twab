@@ -1,6 +1,6 @@
 <?php
   $config = new stdClass();
-  // Edit those lines and rename config-example to config.php
+  // Edit the following lines and rename config-example to config.php
 
   // Your username
   $config->userName = 'twabber';

@@ -6,11 +6,9 @@
   <link href="<?php echo $config->themeUrl ?>favicon.ico" rel="icon" type="image/x-icon" />
   <meta http-equiv="refresh" content="30" >
   <title><?php echo $lastMessage ?></title>
+  <link rel="stylesheet" href="<?php echo $config->themeUrl ?>css/style.css">
 </head>
 <body>
-  <p>Microblogging in a browser tab.</p>
-  <p>Leave this page opened to read my feed in the tab!</p>
-  <p>My last messages:</p>
   <pre>
 <?php
 if (file_exists($messageFile)) {
@@ -20,7 +18,7 @@ echo 'No message yet. Post your first on /new.php';
 }
 ?>
   </pre>
-  <a href="http://lab.raphaelbastide.com/twab/whythisiscool.html">Why this is cool?</a>
+  <a class="why" href="http://lab.raphaelbastide.com/twab/whythisiscool.html">Why this is cool?</a>
 </body>
 <script src="<?php echo $config->themeUrl ?>js/autolink.js"></script>
 <script>
