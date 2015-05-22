@@ -15,7 +15,7 @@ To write a new message, open `/new.php` in a browser.
 
 - http://lab.raphaelbastide.com/twab/
 - http://flux.quaternum.net/twab/
-- http://hugohil.ninja/twab using [node-twab](https://github.com/hugohil/node-twab) by @hugohil
+- http://twab.hugohil.ninja/ using [node-twab](https://github.com/hugohil/node-twab) by @hugohil
 - http://www.gaduman.com/twab/
 - http://pierrebertet.net/twab/
 - http://soymalau.com/twab/
