@@ -5,5 +5,11 @@
     $lastMessage = fgets($f);
     fclose($f);
   }
-  include("themes/".$config->themeName."/index.php");
+  $themePage = "themes/".$config->themeName."/index.php";
+  if (file_exists($themePage)) {
+    include($themePage);
+  }else {
+    echo "Theme doesn’t exist!<br>";
+    echo "Check <code>themeName</code> in config/config.php";
+  }
 ?>
