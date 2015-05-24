@@ -27,6 +27,7 @@ Finally, change the default theme by modifying the value of `themeName` in `conf
 - http://www.gaduman.com/twab/
 - http://pierrebertet.net/twab/
 - http://soymalau.com/twab/
+- http://paranom.asia/twab/
 
 Not on the list? Let me know where you twab URL by [email](mailto:bonjour@raphaelbastide.com)!
 

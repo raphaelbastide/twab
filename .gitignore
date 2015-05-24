@@ -1,3 +1,6 @@
 *.plan
 config.php
 config/config.php
+themes/*
+!themes/default/
+!themes/twabsolute/
