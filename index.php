@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <?php
-    require 'config.php';
+    require 'config/config.php';
     if (file_exists($messageFile)) {
       $f = fopen($messageFile, 'r');
       $lastmessage = fgets($f);
@@ -25,7 +25,7 @@
 if (file_exists($messageFile)) {
 include($messageFile);
 }else {
-echo 'No message yet. Post your first on /new.html';
+echo 'No message yet. Post your first on /new.php';
 }
 ?>
   </pre>

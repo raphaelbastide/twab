@@ -7,7 +7,7 @@
 </head>
 <body>
    <?php
-  require 'config.php';
+  require 'config/config.php';
   $password = $_POST['password'];
   $message = $_POST['message'];
   if ($password === $config->userPass) {
