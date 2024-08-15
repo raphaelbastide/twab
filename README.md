@@ -1,7 +1,7 @@
 # Twab
 
 This is a prototype for a minimalist microblogging engine based on browser tabs.  
-Don’t forget to check [why this is cool]([https://lab.raphaelbastide.com/twab/whythisiscool.html)!
+Don’t forget to check [why this is cool](https://lab.raphaelbastide.com/twab/whythisiscool.html)!
 
 ![Twab in action](demo.png)
 
